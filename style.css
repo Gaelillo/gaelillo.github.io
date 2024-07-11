@@ -10,6 +10,7 @@ body {
 }
 
 :root {
+    --colorImagen1: #6EC17D;
     --colorLink: #EF036C;
     --colorLinkHover: #EE72F8;
     --colorSubtitulo: #EF036C;
@@ -253,6 +254,10 @@ footer {
         display: block;
     }
 
+    .imagen1 {
+        background-color: var(--colorImagen1);
+    }
+
     .contenedorMain {
         flex-direction: column;
         align-items: center;
@@ -285,6 +290,10 @@ footer {
     #nota p {
         font-size: 25px;
     }
+
+    footer {
+        background-color: var(--colorImagen1);
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -312,6 +321,10 @@ footer {
 
     #sliderCorto {
         display: block;
+    }
+
+    .imagen1 {
+        background-color: var(--colorImagen1);
     }
 
     .contenedorMain {
@@ -351,5 +364,9 @@ footer {
 
     #nota p {
         font-size: 20px;
+    }
+
+    footer {
+        background-color: var(--colorImagen1);
     }
 }
